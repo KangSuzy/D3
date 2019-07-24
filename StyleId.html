@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SVG_Practice</title>
+    <!-- id를 사용하여 특정 svg 도형에 스타일 지정 -->
+    <style>
+        rect{
+            fill: darkred;
+        }
+        #box{
+            stroke-width: 10px;
+            stroke: blue;
+        }
+    </style>
+</head>
+    <body>
+    <h1>ID 이름을 사용하여 지정</h1>
+    <svg height="800px">
+        <rect x="30" y="20" width="200" height="100"/>
+        <rect x="80" y="70" width="200" height="100" id="box"/>
+    </svg>
+    </body>
+</html>
